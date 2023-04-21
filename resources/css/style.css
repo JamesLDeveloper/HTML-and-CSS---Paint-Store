@@ -240,11 +240,12 @@ h1 {
 /* Red Swatches */
 
 .reds .base-color {
-  color: #ff002b;
+  color: hsl(350, 100%, 50%);
 }
 
 /* Red lightness decreases by 15 */
 .reds .lightness .color-1 {
+background-color: hsl(350, 100%, 80%);
 
 }
 
@@ -266,7 +267,7 @@ h1 {
 
 /* Red saturation decreases by 15 */
 .reds .saturation .color-1 {
-
+background-color: hsl(350, 100%, 50%);
 }
 
 .reds .saturation .color-2 {
@@ -287,6 +288,7 @@ h1 {
 
 /* Red hue increases by 15 */
 .reds .hue .color-1 {
+background-color: hsl(320, 100%, 50%);
 
 }
 
@@ -309,11 +311,12 @@ h1 {
 /* Green Swatches */
 
 .greens .base-color {
-  color: #00ff2a;
+  color: hsl(130, 100% 50%), ;
 }
 
 /* Green lightness decreases by 20 */
 .greens .lightness .color-1 {
+background-color: hsl(103, 100%, 90%);
 
 }
 
@@ -335,6 +338,7 @@ h1 {
 
 /* Green saturation decreases by 20 */
 .greens .saturation .color-1 {
+background-color: hsl(130, 100%, 50%);
 
 }
 
@@ -356,6 +360,7 @@ h1 {
 
 /* Green hue increases by 22 */
 .greens .hue .color-1 {
+background-color: hsl(86, 100%, 50%);
 
 }
 
@@ -378,12 +383,12 @@ h1 {
 /* Blue Swatches */
 
 .blues .base-color {
-  color: #0055ff;
+  color: hsl(220, 100%, 50%);
 }
 
 /* Blue lightness decreases by 20 */
 .blues .lightness .color-1 {
-
+background-color: hsl(220, 100%, 90%);
 }
 
 .blues .lightness .color-2 {
@@ -404,7 +409,7 @@ h1 {
 
 /* Blue saturation decreases by 20 */
 .blues .saturation .color-1 {
-
+background-color: hsl(220, 100%, 50%);
 }
 
 .blues .saturation .color-2 {
@@ -425,7 +430,7 @@ h1 {
 
 /* Blue hue decreases by 20 */
 .blues .hue .color-1 {
-
+background-color: hsl(260, 100%, 50%);
 }
 
 .blues .hue .color-2 {
